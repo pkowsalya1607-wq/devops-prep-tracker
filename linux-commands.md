@@ -1,5 +1,6 @@
 **Linux Commands for DevOps**
 **File & Directory**
+
 1.pwd → Show current directory
 pwd
 /home/ubuntu
@@ -18,6 +19,7 @@ mkdir project
 rm -rf project
 
 **File Operations**
+
 1.cp file1 file2 → Copy file
 cp file1.txt backup.txt
 
@@ -34,6 +36,7 @@ head -n 5 notes.txt
 tail -f app.log
 
 **Users & Permissions**
+
 1.whoami → Show current user
 whoami
 ubuntu
@@ -45,6 +48,7 @@ chmod 755 script.sh
 chown devops:admin file.txt
 
 **Process Management**
+
 1.ps aux → List processes
 ps aux | grep nginx
 
@@ -55,6 +59,7 @@ kill -9 1234
 top
 
 **Networking**
+
 1.ping host → Test connectivity
 ping -c 4 google.com
 
@@ -70,6 +75,7 @@ LISTEN 0 128 *:22 *:*
 scp notes.txt ubuntu@192.168.1.10:/home/ubuntu/
 
 **Disk & Storage**
+
 1.df -h → Disk usage
 df -h
 Filesystem Size Used Avail Use% Mounted on
@@ -80,6 +86,7 @@ du -sh logs/
 120M logs/
 
 **System Monitoring**
+
 1.uptime → System load & uptime
 uptime
 12:46:01 up 5 days, load average: 0.12, 0.08, 0.05
@@ -90,6 +97,7 @@ free -m
 Mem:         7972   2345   5627
 
 **Logs**
+
 1.tail -f logfile → Follow logs live
 tail -f /var/log/syslog
 
