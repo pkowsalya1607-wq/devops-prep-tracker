@@ -22,4 +22,3 @@ It includes hands-on labs, notes, and mini-projects covering the most important 
 1. Clone the repo:
    ```bash
    git clone **(https://github.com/pkowsalya1607-wq/devops-prep-tracker/edit/main/README.md)
-**
