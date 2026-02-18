@@ -2,8 +2,8 @@
 **File & Directory**
 
 1.pwd → Show current directory
-pwd
-/home/ubuntu
+#pwd
+#/home/ubuntu
 
 2.ls -lah → List files with details
 ls -lah
